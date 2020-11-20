@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '5g0@izcrbmuv@+ogx+ud05pkk7i9mbuw9-g=oc2mpa*s4p@y4@'
+SECRET_KEY = '6zx@%@(m@3vg8#u1#xkq4i#qwe=wnd1dq83hux5ed2y^(uc!+0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -121,3 +121,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+AUTH_USER_MODEL="profiles_api.UserProfile" 
